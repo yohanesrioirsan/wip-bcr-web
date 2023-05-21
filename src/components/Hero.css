@@ -1,0 +1,12 @@
+.headline { 
+    padding-top: 5rem;
+}
+
+.headline h1 { 
+    font-size: 34px;
+}
+
+.headline p {
+    padding-top: 1rem;
+    font-size: 15px;
+}

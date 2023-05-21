@@ -1,0 +1,26 @@
+.address { 
+    font-weight: bold;
+}
+
+.menus{ 
+    list-style-type: none;
+}
+
+.links{ 
+    color: black;
+    text-decoration: none;
+}
+
+.logo { 
+    width: 100px;
+    height: 34px;
+    color: #0D28A6; 
+
+}
+
+@media (max-width: 576px) { 
+    .footer { 
+        display: block;
+    }
+ }
+

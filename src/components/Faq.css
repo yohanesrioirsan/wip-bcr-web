@@ -1,0 +1,12 @@
+.faq-accordion { 
+    border: 1px solid #D4D4D4 !important;
+    border-radius: 5px !important;
+}
+
+h1 { 
+    font-size: 25px;
+}
+
+p { 
+    font-size: 15px;
+}

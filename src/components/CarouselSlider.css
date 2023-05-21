@@ -1,0 +1,94 @@
+#slide { 
+    padding-top: 1rem;
+}
+
+.testimonial-card { 
+    width: auto;
+    background-color: #F1F3FF;
+    border-radius: 15px;
+}
+
+.carousel-indicators { 
+    display: none;
+}
+
+.carousel-control-prev { 
+    display: inline-block;
+    margin-left: 45.5%;
+}
+
+.carousel-control-next {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.carousel-control-next, .carousel-control-prev { 
+    position: relative;
+    margin-top: 10px;
+    width: 5%;
+}
+
+.carousel-control-next-icon{
+    background-image : url(../img/Right\ button.png);
+}
+.carousel-control-prev-icon{
+    background-image : url(../img/Left\ button.png);
+}
+
+
+@media (max-width: 576px) {
+    .carousel-control-prev { 
+        display: inline-block;
+        margin-left: 42.5%;
+    }
+    
+    .carousel-control-next {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    
+    .carousel-control-next, .carousel-control-prev { 
+        position: relative;
+        margin-top: 10px;
+        width: 5%;
+    }
+
+    .rating { 
+        padding-top: 25px;
+        display: flex;
+        justify-content: center !important;
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+
+    .testimonials{ 
+        display: grid !important;
+        grid-template-areas: "photos rating"
+                            "photos text";
+        grid-template-columns: 1fr 2.5fr;
+        background-color: #F1F3FF;
+    }
+
+    .img-photos { 
+        grid-area: photos;
+        padding-bottom: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .rating { 
+        grid-area: rating;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+    }
+
+    .testimonial-text { 
+        grid-area: text;
+        
+    }
+
+
+}

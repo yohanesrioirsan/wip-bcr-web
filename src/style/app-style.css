@@ -1,0 +1,17 @@
+.header { 
+    background-color: #F1F3FF;
+}
+
+.default-background { 
+    height: 15rem;
+    background-image: url("https://images.hindustantimes.com/auto/img/2021/12/28/600x338/Indian_cars_1640662074513_1640662081298.jpg");
+    border-radius: 10px;
+}
+
+.cars-data { 
+    padding-top: 3rem;
+}
+
+.car-image {
+    height: 250px;
+}

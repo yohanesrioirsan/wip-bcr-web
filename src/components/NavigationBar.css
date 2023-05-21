@@ -1,0 +1,10 @@
+.brand { 
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6;
+}
+
+.nav-link{
+    font-weight: 400;
+    color: black;
+}

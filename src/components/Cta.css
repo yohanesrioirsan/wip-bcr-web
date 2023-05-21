@@ -1,0 +1,12 @@
+.cta { 
+    padding-top: 2rem;
+}
+
+.cta p { 
+    width: 50%;
+}
+
+.cta-banner { 
+    color: white;
+    background-color: #0D28A6 !important;
+}

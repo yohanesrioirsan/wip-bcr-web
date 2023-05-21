@@ -1,0 +1,12 @@
+.backdrop {
+    position: absolute;
+    height: 200vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #5A5A5A;
+    opacity: 0.8;
+    z-index: 10;
+  }
+  
